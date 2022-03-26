@@ -1,1 +1,118 @@
+/** @format */
 
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
+body {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.container {
+  display: grid;
+  grid-template-columns: 100px 300px 400px;
+  gap: 30px;
+  grid-template-rows: 100px 200px 300px;
+}
+.first-row {
+  padding: 10px;
+  grid-row: 1/3;
+  gap: 10px;
+  background-color: white;
+  display: grid;
+  grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr;
+}
+.second-row {
+  display: grid;
+  grid-row: 1/3;
+  background-color: white;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
+  gap: 30px;
+  padding: 10px;
+}
+.row1 {
+  background-color: yellow;
+}
+.row22 {
+  background-color: yellow;
+}
+.row2 {
+  grid-row: 3/5;
+  background-color: crimson;
+}
+.row12 {
+  background-color: blue;
+}
+.row21 {
+  background-color: blue;
+}
+
+.row3 {
+  background-color: yellow;
+}
+
+.row4 {
+  background-color: yellow;
+}
+.row5 {
+  grid-row: 2/4;
+  grid-column: 1/-1;
+  background-color: crimson;
+}
+.row6 {
+  background-color: rebeccapurple;
+  /* grid-row: 1/-1; */
+  grid-column: 1/-1;
+}
+.row7 {
+  background-color: blueviolet;
+  grid-column: 1/-1;
+}
+.third-row {
+  grid-row: 1/3;
+  display: grid;
+  gap: 20px;
+  grid-template-columns: 2fr 2fr 2fr;
+  padding: 10px;
+}
+
+.row8 {
+  background-color: yellow;
+  grid-column: 1/3;
+  width: 135px;
+}
+.row81 {
+  background-color: yellow;
+  grid-column: 3/-1;
+  width: 135px;
+}
+.row82 {
+  background-color: crimson;
+  grid-column: 1/-1;
+  grid-row: 2/4;
+}
+.row83 {
+  background-color: blue;
+  width: 135px;
+}
+.row84 {
+  background-color: blue;
+  width: 135px;
+}
+.row85 {
+  background-color: blue;
+  width: 135px;
+}
