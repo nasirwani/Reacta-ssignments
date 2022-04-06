@@ -1,0 +1,32 @@
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+  }.wrapper{
+    max-width: 1200px;
+    margin: 0 auto;
+    text-align: center;
+    background-color: gray;
+  }
+  .header{
+    background-color: #343;
+    color: white;
+    width: 100%;
+    text-align: center;
+  }
+  .header h1{
+    margin-bottom: 0;
+  }
+  .section{
+    display: grid;
+    background-color: cadetblue;
+    grid-template-columns: 1fr 1fr 1fr;
+    color: white;
+  }
+  .status{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    background: gainsboro;
+  }
+  img{
+    width: 200px;
+  }
